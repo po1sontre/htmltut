@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>HTML Tags Explorer</h1>
+
+    <!-- Heading tags (h1 - h6) -->
+    <div class="tag">
+        <h2>&lt;h1&gt; - &lt;h6&gt;</h2>
+        <p>These tags define HTML headings, with <code>&lt;h1&gt;</code> representing the most important heading and <code>&lt;h6&gt;</code> the least important. Headings help structure the content and make it more readable.</p>
+        <p><strong>Example Code:</strong></p>
+        <div class="example">
+            &lt;h1&gt;This is an h1 heading&lt;/h1&gt;<br>
+            &lt;h2&gt;This is an h2 heading&lt;/h2&gt;<br>
+            &lt;h3&gt;This is an h3 heading&lt;/h3&gt;<br>
+            &lt;h4&gt;This is an h4 heading&lt;/h4&gt;<br>
+            &lt;h5&gt;This is an h5 heading&lt;/h5&gt;<br>
+            &lt;h6&gt;This is an h6 heading&lt;/h6&gt;
+        </div>
+        <p><strong>How it looks:</strong></p>
+        <div class="output">
+            <h1>This is an h1 heading</h1>
+            <h2>This is an h2 heading</h2>
+            <h3>This is an h3 heading</h3>
+            <h4>This is an h4 heading</h4>
+            <h5>This is an h5 heading</h5>
+            <h6>This is an h6 heading</h6>
+        </div>
+    </div>
+
+    <!-- Paragraph tag -->
+    <div class="tag">
+        <h2>&lt;p&gt;</h2>
+        <p>The <code>&lt;p&gt;</code> tag defines a paragraph. It is a block of text that helps to separate content and improves readability.</p>
+        <p><strong>Example Code:</strong></p>
+        <div class="example">&lt;p&gt;This is a paragraph.&lt;/p&gt;</div>
+        <p><strong>How it looks:</strong></p>
+        <div class="output">
+            <p>This is a paragraph.</p>
+        </div>
+    </div>
+
+    <!-- Image tag -->
+    <div class="tag">
+      <h2>&lt;img&gt;</h2>
+      <p>The <code>&lt;img&gt;</code> tag embeds an image into the document. The <code>src</code> attribute specifies the image source, while the <code>alt</code> attribute provides a textual description of the image for accessibility.</p>
+        <p>Embeds an image into the document.</p>
+        <p><strong>Example Code:</strong></p>
+        <div class="example">&lt;img src="image.jpg" alt="Description of image"&gt;</div>
+        <p><strong>How it looks:</strong></p>
+        <div class="output">
+            <img src="https://gif-avatars.com/img/150x150/surprised-cat.gif" alt="Placeholder image">
+            <p>gifs are considerd images btw not vids</p>
+        </div>
+    </div>
+
+    <!-- Anchor tag -->
+    <div class="tag">
+        <h2>&lt;a&gt;</h2>
+        <p>The <code>&lt;a&gt;</code> tag defines a hyperlink, which allows users to navigate to another webpage. The <code>href</code> attribute specifies the URL of the page the link goes to.</p>
+        <p><strong>Example Code:</strong></p>
+        <div class="example">&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;</div>
+        <p><strong>How it looks:</strong></p>
+        <div class="output">
+            <a href="https://www.example.com" target="_blank">Visit Example</a>
+        </div>
+    </div>
+
+    <!-- Lists tags -->
+    <div class="tag">
+        <h2>&lt;ul&gt; and &lt;ol&gt;</h2>
+        <p>The <code>&lt;ul&gt;</code> tag defines an unordered list, while the <code>&lt;ol&gt;</code> tag defines an ordered list. Each list item is defined using the <code>&lt;li&gt;</code> tag.</p>
+        <p><strong>Example Code:</strong></p>
+        <div class="example">
+            &lt;ul&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Item 1&lt;/li&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Item 2&lt;/li&gt;<br>
+            &lt;/ul&gt;<br><br>
+            &lt;ol&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Item 1&lt;/li&gt;<br>
+            &nbsp;&nbsp;&lt;li&gt;Item 2&lt;/li&gt;<br>
+            &lt;/ol&gt;
+        </div>
+        <p><strong>How it looks:</strong></p>
+        <div class="output">
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ul>
+            <ol>
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- Table tag -->
+    <div class="tag">
+        <h2>&lt;table&gt;</h2>
+        <p>The <code>&lt;table&gt;</code> tag defines a table. It organizes data into rows and columns, making it easier to present complex information clearly.</p>
+        <p><strong>Example Code:</strong></p>
+        <div class="example">
+            &lt;table&gt;<br>
+            &nbsp;&nbsp;&lt;tr&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Header 1&lt;/th&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Header 2&lt;/th&gt;<br>
+            &nbsp;&nbsp;&lt;/tr&gt;<br>
+            &nbsp;&nbsp;&lt;tr&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Data 1&lt;/td&gt;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Data 2&lt;/td&gt;<br>
+            &nbsp;&nbsp;&lt;/tr&gt;<br>
+            &lt;/table&gt;
+        </div>
+        <p><strong>How it looks:</strong></p>
+        <div class="output">
+            <table>
+                <tr>
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                </tr>
+                <tr>
+                    <td>Data 1</td>
+                    <td>Data 2</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <!-- Div tag -->
+<div class="tag">
+  <h2>&lt;div&gt;</h2>
+  <p>Defines a division or section in an HTML document.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;div&gt;This is a div element.&lt;/div&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <div>This is a div element.</div>
+  </div>
+</div>
+
+<!-- Span tag -->
+<div class="tag">
+  <h2>&lt;span&gt;</h2>
+  <p>Defines a small section in a document; used for styling a part of the text.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;span&gt;This is a span element.&lt;/span&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <span>This is a span element.</span>
+  </div>
+</div>
+
+<!-- Strong tag -->
+<div class="tag">
+  <h2>&lt;strong&gt;</h2>
+  <p>Defines important text, usually displayed in bold.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;strong&gt;This is strong text.&lt;/strong&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <strong>This is strong text.</strong>
+  </div>
+</div>
+
+<!-- Emphasis tag -->
+<div class="tag">
+  <h2>&lt;em&gt;</h2>
+  <p>Defines emphasized text, usually displayed in italics.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;em&gt;This is emphasized text.&lt;/em&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <em>This is emphasized text.</em>
+  </div>
+</div>
+
+<!-- Blockquote tag -->
+<div class="tag">
+  <h2>&lt;blockquote&gt;</h2>
+  <p>Defines a section that is quoted from another source.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;blockquote&gt;This is a blockquote.&lt;/blockquote&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <blockquote>This is a blockquote.</blockquote>
+  </div>
+</div>
+
+<!-- Code tag -->
+<div class="tag">
+  <h2>&lt;code&gt;</h2>
+  <p>Defines a piece of computer code.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;code&gt;console.log('Hello, World!');&lt;/code&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <code>console.log('Hello, World!');</code>
+  </div>
+</div>
+
+<!-- Break tag -->
+<div class="tag">
+  <h2>&lt;br&gt;</h2>
+  <p>Inserts a line break.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      First line.&lt;br&gt;Second line.
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      First line.<br>Second line.
+  </div>
+</div>
+
+<!-- Horizontal rule tag -->
+<div class="tag">
+  <h2>&lt;hr&gt;</h2>
+  <p>Creates a thematic break or horizontal line in the document.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;hr&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <hr>
+  </div>
+</div>
+
+<!-- Iframe tag -->
+<div class="tag">
+  <h2>&lt;iframe&gt;</h2>
+  <p>Embeds another HTML page within the current page.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;iframe src="https://www.example.com" width="300" height="200"&gt;&lt;/iframe&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <iframe src="https://www.example.com" width="300" height="200"></iframe>
+  </div>
+</div>
+
+<!-- Form tag -->
+<div class="tag">
+  <h2>&lt;form&gt;</h2>
+  <p>Creates an HTML form for user input.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;form&gt;<br>
+      &nbsp;&nbsp;&lt;label for="name"&gt;Name:&lt;/label&gt;<br>
+      &nbsp;&nbsp;&lt;input type="text" id="name" name="name"&gt;<br>
+      &nbsp;&nbsp;&lt;input type="submit" value="Submit"&gt;<br>
+      &lt;/form&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <input type="submit" value="Submit">
+      </form>
+  </div>
+</div>
+
+<!-- Input Tag -->
+<div class="tag">
+  <h2>&lt;input&gt;</h2>
+  <p>Defines an input control.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;input type="text" placeholder="Enter text"&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <input type="text" placeholder="Enter text">
+  </div>
+</div>
+
+<!-- Select Tag -->
+<div class="tag">
+  <h2>&lt;select&gt;</h2>
+  <p>Defines a drop-down list.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;select&gt;<br>
+      &nbsp;&nbsp;&lt;option value="1"&gt;Option 1&lt;/option&gt;<br>
+      &nbsp;&nbsp;&lt;option value="2"&gt;Option 2&lt;/option&gt;<br>
+      &lt;/select&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <select>
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+      </select>
+  </div>
+</div>
+
+<!-- Option Tag -->
+<div class="tag">
+  <h2>&lt;option&gt;</h2>
+  <p>Defines an option in a drop-down list.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;select&gt;<br>
+      &nbsp;&nbsp;&lt;option value="1"&gt;Option 1&lt;/option&gt;<br>
+      &nbsp;&nbsp;&lt;option value="2"&gt;Option 2&lt;/option&gt;<br>
+      &lt;/select&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <select>
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+      </select>
+  </div>
+</div>
+
+<!-- Textarea Tag -->
+<div class="tag">
+  <h2>&lt;textarea&gt;</h2>
+  <p>Defines a multi-line text input control.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;textarea rows="4" cols="50"&gt;Enter text here...&lt;/textarea&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <textarea rows="4" cols="50">Enter text here...</textarea>
+  </div>
+</div>
+
+<!-- Button Tag -->
+<div class="tag">
+  <h2>&lt;button&gt;</h2>
+  <p>Defines a clickable button.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;button&gt;Click Me&lt;/button&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <button>Click Me</button>
+  </div>
+</div>
+
+<!-- Checkbox Tag -->
+<div class="tag">
+  <h2>&lt;input type="checkbox"&gt;</h2>
+  <p>Defines a checkbox.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;input type="checkbox" id="checkbox" name="checkbox"&gt; Option 1
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <input type="checkbox" id="checkbox" name="checkbox"> Option 1
+  </div>
+</div>
+
+<!-- Radio Button Tag -->
+<div class="tag">
+  <h2>&lt;input type="radio"&gt;</h2>
+  <p>Defines a radio button.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;input type="radio" id="radio1" name="radio"&gt; Option 1
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <input type="radio" id="radio1" name="radio"> Option 1
+  </div>
+</div>
+
+<!-- File Input Tag -->
+<div class="tag">
+  <h2>&lt;input type="file"&gt;</h2>
+  <p>Defines a file upload control.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;input type="file" id="file"&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <input type="file" id="file">
+  </div>
+</div>
+
+<!-- Range Input Tag -->
+<div class="tag">
+  <h2>&lt;input type="range"&gt;</h2>
+  <p>Defines a slider control for selecting a value from a range.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;input type="range" min="0" max="100" value="50"&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <input type="range" min="0" max="100" value="50">
+  </div>
+</div>
+
+<!-- Color Input Tag -->
+<div class="tag">
+  <h2>&lt;input type="color"&gt;</h2>
+  <p>Defines a color picker control.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;input type="color" value="#ff0000"&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <input type="color" value="#ff0000">
+  </div>
+</div>
+
+<!-- Datalist Tag -->
+<div class="tag">
+  <h2>&lt;datalist&gt;</h2>
+  <p>Provides a list of predefined options for an &lt;input&gt; element.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;input list="fruits"&gt;<br>
+      &lt;datalist id="fruits"&gt;<br>
+      &nbsp;&nbsp;&lt;option value="Apple"&gt;<br>
+      &nbsp;&nbsp;&lt;option value="Banana"&gt;<br>
+      &nbsp;&nbsp;&lt;option value="Cherry"&gt;<br>
+      &lt;/datalist&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <input list="fruits">
+      <datalist id="fruits">
+          <option value="Apple">
+          <option value="Banana">
+          <option value="Cherry">
+      </datalist>
+  </div>
+</div>
+
+<!-- Legend Tag -->
+<div class="tag">
+  <h2>&lt;legend&gt;</h2>
+  <p>Defines a caption for a &lt;fieldset&gt; element.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;fieldset&gt;<br>
+      &nbsp;&nbsp;&lt;legend&gt;Personal Information&lt;/legend&gt;<br>
+      &nbsp;&nbsp;&lt;input type="text"&gt;<br>
+      &lt;/fieldset&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <fieldset>
+          <legend>Personal Information</legend>
+          <input type="text" placeholder="Your name">
+      </fieldset>
+  </div>
+</div>
+
+<!-- Fieldset Tag -->
+<div class="tag">
+  <h2>&lt;fieldset&gt;</h2>
+  <p>Groups related elements in a form.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;fieldset&gt;<br>
+      &nbsp;&nbsp;&lt;legend&gt;Group Name&lt;/legend&gt;<br>
+      &nbsp;&nbsp;&lt;input type="text"&gt;<br>
+      &lt;/fieldset&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <fieldset>
+          <legend>Group Name</legend>
+          <input type="text" placeholder="Input here">
+      </fieldset>
+  </div>
+</div>
+
+<!-- Submit Button Tag -->
+<div class="tag">
+  <h2>&lt;input type="submit"&gt;</h2>
+  <p>Defines a button for submitting a form.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;input type="submit" value="Submit"&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <input type="submit" value="Submit">
+  </div>
+</div>
+
+<!-- Picture Tag -->
+<div class="tag">
+  <h2>&lt;picture&gt;</h2>
+  <p>Defines a container for multiple &lt;source&gt; elements for responsive images.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;picture&gt;<br>
+      &nbsp;&nbsp;&lt;source srcset="image.webp" type="image/webp"&gt;<br>
+      &nbsp;&nbsp;&lt;img src="image.jpg" alt="Description"&gt;&lt;/picture&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <picture>
+          <source srcset="image.webp" type="image/webp">
+          <img src="image.jpg" alt="Description">
+      </picture>
+  </div>
+</div>
+
+<!-- Source Tag -->
+<div class="tag">
+  <h2>&lt;source&gt;</h2>
+  <p>Defines multiple media resources for elements like &lt;audio&gt;, &lt;video&gt;, and &lt;picture&gt;.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;source src="video.mp4" type="video/mp4"&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <source src="video.mp4" type="video/mp4">
+  </div>
+</div>
+
+<!-- Datalist Tag -->
+<div class="tag">
+  <h2>&lt;datalist&gt;</h2>
+  <p>Provides an auto-complete feature for &lt;input&gt; elements.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;input list="browsers"&gt;<br>
+      &lt;datalist id="browsers"&gt;<br>
+      &nbsp;&nbsp;&lt;option value="Chrome"&gt;<br>
+      &nbsp;&nbsp;&lt;option value="Firefox"&gt;<br>
+      &lt;/datalist&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <input list="browsers">
+      <datalist id="browsers">
+          <option value="Chrome">
+          <option value="Firefox">
+      </datalist>
+  </div>
+</div>
+
+<!-- Time Tag -->
+<div class="tag">
+  <h2>&lt;time&gt;</h2>
+  <p>Represents a specific period in time.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;time datetime="2024-10-08"&gt;October 8, 2024&lt;/time&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <time datetime="2024-10-08">October 8, 2024</time>
+  </div>
+</div>
+
+<!-- Abbr Tag -->
+<div class="tag">
+  <h2>&lt;abbr&gt;</h2>
+  <p>Defines an abbreviation or acronym.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <abbr title="HyperText Markup Language">HTML</abbr>
+  </div>
+</div>
+
+<!-- Address Tag -->
+<div class="tag">
+  <h2>&lt;address&gt;</h2>
+  <p>Represents contact information for a person or organization.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;address&gt;John Doe, 123 Main St, Anytown, USA&lt;/address&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <address>John Doe, 123 Main St, Anytown, USA</address>
+  </div>
+</div>
+
+<!-- Figure Tag -->
+<div class="tag">
+  <h2>&lt;figure&gt;</h2>
+  <p>Specifies self-contained content, such as illustrations, diagrams, or photos.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;figure&gt;<br>
+      &nbsp;&nbsp;&lt;img src="image.jpg" alt="A beautiful scenery"&gt;<br>
+      &nbsp;&nbsp;&lt;figcaption&gt;Beautiful Scenery&lt;/figcaption&gt;<br>
+      &lt;/figure&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <figure>
+          <img src="image.jpg" alt="A beautiful scenery">
+          <figcaption>Beautiful Scenery</figcaption>
+      </figure>
+  </div>
+</div>
+
+<!-- Figcaption Tag -->
+<div class="tag">
+  <h2>&lt;figcaption&gt;</h2>
+  <p>Defines a caption for a &lt;figure&gt; element.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;figure&gt;<br>
+      &nbsp;&nbsp;&lt;img src="image.jpg"&gt;<br>
+      &nbsp;&nbsp;&lt;figcaption&gt;This is a caption.&lt;/figcaption&gt;<br>
+      &lt;/figure&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <figure>
+          <img src="image.jpg">
+          <figcaption>This is a caption.</figcaption>
+      </figure>
+  </div>
+</div>
+
+<!-- Progress Tag -->
+<div class="tag">
+  <h2>&lt;progress&gt;</h2>
+  <p>Represents the progress of a task.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;progress value="70" max="100"&gt;&lt;/progress&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <progress value="70" max="100"></progress>
+  </div>
+</div>
+
+<!-- Output Tag -->
+<div class="tag">
+  <h2>&lt;output&gt;</h2>
+  <p>Represents the result of a calculation or user action.</p>
+  <p><strong>Example Code:</strong></p>
+  <div class="example">
+      &lt;output for="calc"&gt;Result goes here&lt;/output&gt;
+  </div>
+  <p><strong>How it looks:</strong></p>
+  <div class="output">
+      <output for="calc">Result goes here</output>
+  </div>
+</div>
+
+
+    <!-- Real-Time HTML Input -->
+    <h2>Real-Time HTML Input</h2>
+    <p>Type your HTML code below to see it rendered in real time:</p>
+    <textarea id="htmlInput" rows="8" placeholder="Enter HTML code here..."></textarea>
+
+    <h3>Output:</h3>
+    <div class="real-time-output" id="output"></div>
+
+<script>
+    const htmlInput = document.getElementById('htmlInput');
+    const output = document.getElementById('output');
+
+    htmlInput.addEventListener('input', () => {
+        output.innerHTML = htmlInput.value;
+    });
+</script>
+
+</body>
+</html>

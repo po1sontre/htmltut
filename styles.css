@@ -1,0 +1,122 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+    color: #bb86fc;
+}
+
+/* Different font sizes for each heading level */
+h1 {
+    font-size: 2.5em; /* Largest */
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+h6 {
+    font-size: 1em; /* Smallest */
+}
+
+/* List Item Styling */
+ul, ol {
+    padding-left: 20px; /* Indent the list */
+}
+
+li {
+    font-size: 1em; /* Set a smaller font size */
+    line-height: 1.5; /* Set line height for better readability */
+    margin: 5px 0; /* Add some margin to separate list items */
+}
+
+
+.tag {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+}
+
+.example {
+    padding: 10px;
+    background-color: #292929;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-family: monospace;
+}
+
+.real-time-output {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #292929;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+}
+
+/* Textarea Styling */
+textarea {
+    background-color: #1e1e1e; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+    border: 1px solid #bb86fc; /* Purple border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside the textarea */
+    font-size: 1em; /* Font size */
+    width: 100%; /* Full width */
+    resize: vertical; /* Allow vertical resizing */
+    outline: none; /* Remove default outline */
+}
+
+/* Textarea Focus Styling */
+textarea:focus {
+    border-color: #ff79c6; /* Change border color on focus */
+}
+form {
+    padding: 15px;
+}
+
+input[type="text"] {
+    margin-bottom: 10px; /* Adds space below the text input */
+}
+
+input[type="submit"] {
+    padding: 10px 20px; /* Adjust values as needed */
+    background-color: #6A5ACD; /* Purple background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    margin-top: 10px; /* Adds space above the button */
+}
+
+input[type="submit"]:hover {
+    background-color: #5A4FCF; /* Darker purple shade on hover */
+}
+
